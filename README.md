@@ -14,7 +14,7 @@ However, there are actually two problems:
 Users don’t like extra steps, especially because downloading a new app is already relatively high-friction. 
 Adding another tap certainly doesn’t help.
 
-* Users can press “Cancel.”
+* Users can press “Cancel”
 This is the much bigger problem. Pressing “Cancel” can leave users trapped on an empty page in Safari. Even worse, if they’ve come from another app and then go back to click the same link again, it’ll show this error message and do nothing:
 
 ![iOS Safari Error Message](/2-Safari-Modal-Error-Message-opt.png)
@@ -22,7 +22,7 @@ This is the much bigger problem. Pressing “Cancel” can leave users trapped o
 
 ### This is how you fix the iOS 10.3 redirection issue
 
-You can’t avoid the alert dialog. And the reality is that some users will click “Cancel,” either on purpose or by mistake.
+You can’t avoid the alert dialog. And the reality is that some users will click “Cancel” either on purpose or by mistake.
 What you need to do is to build a download app screen. This will be a simple page with a download link to the iTunes store.
 
 The key part of this is the JavaScript at the end:
