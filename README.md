@@ -7,7 +7,6 @@ This alert prevented user interaction until it was dismissed; so, the result of 
 Unfortunately, it was realistic enough to trick many users into paying up. In iOS 10.3, Apple fixed this security hole by changing the confirmation alert into a new non-blocking dialog.
 
 ![iOS Safari Open App Store](/1-Safari-Modal-Open-App-Store-opt.png)
-Format: ![Alt Text](url)
 
 However, there are actually two problems:
 
@@ -19,7 +18,6 @@ Adding another tap certainly doesn’t help.
 This is the much bigger problem. Pressing “Cancel” can leave users trapped on an empty page in Safari. Even worse, if they’ve come from another app and then go back to click the same link again, it’ll show this error message and do nothing:
 
 ![iOS Safari Error Message](/2-Safari-Modal-Error-Message-opt.png)
-Format: ![Alt Text](url)
 
 
 ### This is how you fix the iOS 10.3 redirection issue
